@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590661027991.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5352CF8B",
+    "lastKnownWriteTime" : 1590661833,
+    "last_content_update" : 1590661833201,
+    "path" : "~/Desktop/r/My functions/func1.R",
+    "project_path" : "func1.R",
+    "properties" : {
+        "cursorPosition" : "15,1",
+        "docOutlineVisible" : "0",
+        "scrollLine" : "2",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

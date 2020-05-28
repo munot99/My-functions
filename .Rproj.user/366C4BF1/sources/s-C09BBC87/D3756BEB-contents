@@ -1,0 +1,151 @@
+git add Helloworld.md
+git add Helloworld.md
+q()
+x <- matrix(1:6,2,3)
+X
+x
+x <- matrix(1:6,6,1)
+x
+x <-(4,TRUE)
+x <-c(4,TRUE)
+class(x)
+x <-c(1,3,5)
+y<-c(3,2,10)
+rbind(x,y)
+x<- 1:4
+y<-2
+x+y
+x(3,5,1,10,12,6)
+x<-c(3,5,1,10,12,6)
+x[x<6]<-0
+x
+read.csv(hw1_data.csv)
+hw1_data <- read.csv("~/Downloads/hw1_data.csv")
+View(hw1_data)
+ncol(hw1_data)
+colnames(hw1_data)
+colnames(hw1_data,false)
+colnames(hw1_data,do.NULL = FALSE)
+colnames(hw1_datado.NULL = TRUE)
+colnames(hw1_data,do.NULL = TRUE)
+hw1_data[1:2]
+hw1_data[1:2,drop=false]
+hw1_data[,1:2]
+hw1_data[1:2,]
+nrow(hw1_data)
+tail(hw1_data,1:2)
+tail(hw1_data,2)
+hw1_data$Ozone[47]
+miss<-is.na
+hw1_data$Ozone(miss)
+miss(hw1_data$Ozone)
+count.fields(miss(hw1_data$Ozone))
+z <- miss(hw1_data$Ozone)
+colSums(z)
+sum(miss(hw1_data$Ozone))
+colMeans(hw1_data$Ozone,na.rm = TRUE)
+mean(hw1_data$Ozone,!is.na(hw1_data))
+mean(hw1_data)
+mean(hw1_data$Ozone,!is.na(hw1_data$Ozone))
+mean(hw1_data$Ozone_
+)
+mean(hw1_data$Ozone)
+z<- is.na(hw1_data$Ozone)
+z<-complete.cases(hw1_data$Ozone)
+mean(z)
+mean(hw1_data$Ozone(z))
+mean(hw1_data$Ozone[z])
+mean(hw1_data$Solar.R[hw1_data$Ozone>31][hw1_data$Temp>90])
+mean(hw1_data$Solar.R[complete.cases(hw1_data$Solar.R)][hw1_data$Ozone>31][hw1_data$Temp>90])
+mean(hw1_data$Solar.R[complete.cases(hw1_data$Solar.R)])
+hw1_data$Solar.R[complete.cases(hw1_data$Solar.R),hw1_data$Ozone>31]
+hw1_data$Solar.R[hw1_data$Ozone>31]
+hw1_data$Solar.R[hw1_data$Ozone>31][complete.cases(hw1_data$Solar.R)]
+hw1_data$Solar.R[complete.cases(hw1_data$Solar.R)]
+hw1_data$Solar.R[complete.cases(hw1_data$Solar.R)][hw1_data$Ozone>31]
+hw1_data$Solar.R[complete.cases(hw1_data$Solar.R)]
+hw1_data$Solar.R[hw1_data["Ozone">31]]
+z<-hw1_data$Ozone>31
+a<-hw1_data$Temp>90
+hw1_data[z][a]
+hw1_data[[z]][[a]]
+hw1_data[[z]]
+hw1_data$Solar.R[hw1_data$Ozone>31][hw1_data$Temp>90]
+mean(hw1_data$Solar.R[hw1_data$Ozone>31][hw1_data$Temp>90])
+mean(hw1_data$Solar.R[hw1_data$Ozone>31][hw1_data$Temp>90])(complete.cases(hw1_data$Solar.R[hw1_data$Ozone>31][hw1_data$Temp>90]))
+complete.cases(hw1_data$Solar.R[hw1_data$Ozone>31][hw1_data$Temp>90])
+good<-complete.cases(hw1_data$Solar.R[hw1_data$Ozone>31][hw1_data$Temp>90])
+mean((hw1_data$Solar.R[hw1_data$Ozone>31][hw1_data$Temp>90][good])
+)
+mean(hw1_data$Temp[complete.cases(hw1_data$temp)][hw1_data$Month>6])
+mean(hw1_data$Temp[complete.cases(hw1_data$Temp)][hw1_data$Month>6])
+mean(hw1_data$Temp[hw1_data$Month>6])[complete.cases(hw1_data$Temp[hw1_data$Month>6])])
+mean(hw1_data$Temp[hw1_data$Month>6][complete.cases(hw1_data$Temp[hw1_data$Month>6])])
+mean(hw1_data$Temp[hw1_data$Month>6]
+)
+hw1_data$Temp[hw1_data$Month>6]
+mean(hw1_data$Temp[hw1_data$Month==6][complete.cases(hw1_data$Temp[hw1_data$Month==6])])
+max(hw1_data$Ozone[hw1_data$Month==5])
+max(hw1_data$Ozone[hw1_data$Month==5],na.rm = True)
+max(hw1_data$Ozone[hw1_data$Month==5],na.rm=TRUE)
+x<-4l;class(x)
+x<-4L
+class(x)
+x(1,3,5)
+x<-(1,3,5)
+x<-c(1,3,5)
+y<-c(3,2,10)
+cbind(x,y)
+hw1_data$Ozone[47]
+sum(is.na(hw1_data$Ozone))
+good<-(complete.cases(hw1_data$Ozone))
+mean(hw1_data$Ozone[good])
+above<-hw1_data$Ozone[>31]
+above<-hw1_data$Solar.R[hw1_data$Ozone>31][hw1_data$Temp>90]
+good<-(complete.cases(hw1_data$Solar.R))
+good<-(complete.cases(above))
+mean(above[good])
+above<-hw1_data$Temp[hw1_data$Month==6]
+mean(above[good])
+good<-(complete.cases(above))
+mean(above[good])
+install.packages("swirl")
+package_version("swirl")
+packageVersion("swirl")
+install.packages("swirl")
+install.packages("swirl")
+install.packages("RCurl")
+packageVersion("swirl")
+library("swirl")
+.libPaths()
+library(swirl)
+remove.packages("swirl")
+.libPaths()
+install.packages("swirl" , lib = "/Library/Frameworks/R.framework/Versions/3.3/Resources/library")
+library(swirl)
+‘/private/var/folders/8n/5pftzh2s1254_xk_r2nz_sy00000gn/T/RtmpKKT4NL/downloaded_packages’
+library(swirl)
+packageVersion(swirl)
+install.packages(c("cluster", "KernSmooth", "Matrix", "mgcv", "tinytex", "xfun"))
+install.packages(c("cluster", "KernSmooth", "Matrix", "mgcv"))
+.libPaths()
+.libPaths( c( "C:/Users/<user>/Documents/R/win-library/3.3", .libPaths()) )
+install.packages(c("cluster", "KernSmooth", "Matrix", "mgcv"))
+.Library
+remove.packages("swirl")
+The downloaded source packages are in
+install.packages("swirl")
+The downloaded source packages are in
+install.packages('swirl', dependencies = TRUE
+)
+install.packages('devtools') #assuming it is not already installed
+library(devtools)
+install_github('andreacirilloac/updateR')
+library(updateR)
+updateR(admin_password = plagiarize)
+install.packages("~/Desktop/swirl_2.4.5.tar.gz", repos = NULL, type = "source")
+install.packages("~/Desktop/swirl_2.4.5.tar.gz", repos = NULL, type = "source")
+install.packages("~/Downloads/swirl_2.4.0.tar.gz", repos = NULL, type = "source")
+install.packages("~/Downloads/RCurl_1.95-4.9.tar.gz", repos = NULL, type = "source")
+install.packages("~/Downloads/swirl_2.4.0.tar.gz", repos = NULL, type = "source")
+library()
